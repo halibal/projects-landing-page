@@ -1,25 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
+import Card from './components/Card';
+import projectData from './data';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	const cards = projectData.map((data) => {
+		return <Card
+			key={data.id}
+			{...data}
+		/>
+	});
+
+	return (
+		<div className="App">
+			<div className="container">
+				<Header />
+				<hr className="bg-dark" />
+				<div className="row my-4 d-flex flex-column flex-md-row m-auto">
+					{cards}
+				</div>
+			</div>
+		</div >
+	);
 }
 
 export default App;
