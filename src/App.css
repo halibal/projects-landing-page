@@ -4,18 +4,29 @@ body {
 
 .rainbow-border {
     background-color: rgb(253, 243, 247);
-    border: 3px solid;
-    border-image: linear-gradient(#ff512f, #dd2476, #1c63ff) 1;
-    animation: rotate 5s ease-in infinite;
+    border-radius: 1rem;
 }
 
-@keyframes rotate {
+/* border-image: linear-gradient(#ff512f, #dd2476, #1c63ff) 1;
+    animation: rotate 5s ease-in infinite;
+} */
+
+/* @keyframes rotate {
     50% {
         border-image: linear-gradient(360deg, #ff512f, #dd2476, #1c63ff) 1;
     }
-}
+} */
 
 .App .card-group {
+    border-radius: 1rem;
     width: 300px;
     height: 500px;
+}
+
+.App .card-footer {
+    border-radius: 0 0 1rem 1rem;
+}
+
+.App .card-header {
+    border-radius: 1rem 1rem 0 0;
 }

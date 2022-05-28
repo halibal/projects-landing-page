@@ -3,7 +3,7 @@ import React from 'react';
 function Card(data) {
 
     return (
-        <div className="card-group mx-3 my-2 col col-md-6 col-lg-4">
+        <div className="card-group mx-3 my-2 col col-md-6 col-lg-4 shadow-lg">
             <div className="card text-center rainbow-border">
                 <div className="card-header">
                     {data.cardHeader}
@@ -12,6 +12,7 @@ function Card(data) {
                     <h5 className="card-title">
                         {data.title}
                     </h5>
+                    <img className="card-img" src={data.image} alt={data.title} />
                     <a href={data.url} className="btn btn-outline-primary">
                         {data.buttonText}
                     </a>

@@ -10,6 +10,7 @@ const data = [
             month: "May",
             year: 2022,
         },
+        image: require('./images/my_game_journal.png')
     },
     {
         id: 4,
@@ -22,6 +23,7 @@ const data = [
             month: "May",
             year: 2022
         },
+        image: require('./images/interactive_pricing_component.png')
     },
     {
         id: 3,
@@ -33,7 +35,8 @@ const data = [
             day: 16,
             month: "May",
             year: 2022
-        }
+        },
+        image: require('./images/intro_section_with_dropdown_navigation.png')
     },
     {
         id: 2,
@@ -45,7 +48,8 @@ const data = [
             day: 12,
             month: "May",
             year: 2022
-        }
+        },
+        image: require('./images/stats_preview_card_component.png')
     },
     {
         id: 1,
@@ -57,7 +61,8 @@ const data = [
             day: 10,
             month: "May",
             year: 2022
-        }
+        },
+        image: require('./images/ping_single_column_coming_soon_page.png')
     }
 ]
 
