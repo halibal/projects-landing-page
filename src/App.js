@@ -16,7 +16,7 @@ function App() {
 			<div className="container">
 				<Header />
 				<hr className="bg-dark" />
-				<div className="row my-4 d-flex flex-column flex-md-row m-auto">
+				<div className="d-flex flex-wrap flex-column align-items-center flex-md-row justify-content-center m-auto">
 					{cards}
 				</div>
 			</div>

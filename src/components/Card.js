@@ -3,7 +3,7 @@ import React from 'react';
 function Card(data) {
 
     return (
-        <div className="card-group my-2 col col-md-6 col-lg-4">
+        <div className="card-group mx-3 my-2 col col-md-6 col-lg-4">
             <div className="card text-center rainbow-border">
                 <div className="card-header">
                     {data.cardHeader}
