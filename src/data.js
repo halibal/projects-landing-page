@@ -1,5 +1,18 @@
 const data = [
     {
+        id: 6,
+        cardHeader: 'HTML | CSS | JSX | React JS',
+        title: "Meme Generator",
+        url: 'https://halibal.github.io/meme-generator/',
+        buttonText: 'Go to Live Site',
+        uploadDate: {
+            day: 2,
+            month: "June",
+            year: 2022,
+        },
+        image: require('./images/meme-generator.png')
+    },
+    {
         id: 5,
         cardHeader: 'HTML | CSS | JSX | React JS',
         title: "Game Journal",
