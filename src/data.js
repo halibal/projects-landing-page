@@ -1,5 +1,18 @@
 const data = [
     {
+        id: 7,
+        cardHeader: 'HTML | CSS | JSX | React JS',
+        title: "Tenzies Game",
+        url: 'https://halibal.github.io/tenzies-game/',
+        buttonText: 'Go to Live Site',
+        uploadDate: {
+            day: 8,
+            month: "June",
+            year: 2022,
+        },
+        image: require('./images/tenzies_game.png')
+    },
+    {
         id: 6,
         cardHeader: 'HTML | CSS | JSX | React JS',
         title: "Meme Generator",
