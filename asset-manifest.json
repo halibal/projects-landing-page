@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/projects-landing-page/static/css/main.b1e513cd.css",
-    "main.js": "/projects-landing-page/static/js/main.f3623bac.js",
+    "main.js": "/projects-landing-page/static/js/main.243cf20b.js",
     "static/js/787.6606bfd5.chunk.js": "/projects-landing-page/static/js/787.6606bfd5.chunk.js",
     "static/media/my_game_journal.png": "/projects-landing-page/static/media/my_game_journal.c0de7869e2611adbf308.png",
     "static/media/stats_preview_card_component.png": "/projects-landing-page/static/media/stats_preview_card_component.fb11146434b065365887.png",
@@ -9,13 +9,14 @@
     "static/media/intro_section_with_dropdown_navigation.png": "/projects-landing-page/static/media/intro_section_with_dropdown_navigation.92bdebe31c8d01cfbf81.png",
     "static/media/ping_single_column_coming_soon_page.png": "/projects-landing-page/static/media/ping_single_column_coming_soon_page.6e9aff34be4b1d49630c.png",
     "static/media/interactive_pricing_component.png": "/projects-landing-page/static/media/interactive_pricing_component.88ba6d0f65b39b120d31.png",
+    "static/media/tenzies_game.png": "/projects-landing-page/static/media/tenzies_game.dea2feb9322e1514d9d8.png",
     "index.html": "/projects-landing-page/index.html",
     "main.b1e513cd.css.map": "/projects-landing-page/static/css/main.b1e513cd.css.map",
-    "main.f3623bac.js.map": "/projects-landing-page/static/js/main.f3623bac.js.map",
+    "main.243cf20b.js.map": "/projects-landing-page/static/js/main.243cf20b.js.map",
     "787.6606bfd5.chunk.js.map": "/projects-landing-page/static/js/787.6606bfd5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b1e513cd.css",
-    "static/js/main.f3623bac.js"
+    "static/js/main.243cf20b.js"
   ]
 }
