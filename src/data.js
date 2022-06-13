@@ -1,5 +1,18 @@
 const data = [
     {
+        id: 8,
+        cardHeader: 'HTML | CSS | JSX | React JS',
+        title: "Todo App",
+        url: 'https://halibal.github.io/todo-react/',
+        buttonText: 'Go to Live Site',
+        uploadDate: {
+            day: 13,
+            month: "June",
+            year: 2022,
+        },
+        image: require('./images/todo-react.png')
+    },
+    {
         id: 7,
         cardHeader: 'HTML | CSS | JSX | React JS',
         title: "Tenzies Game",
